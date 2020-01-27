@@ -14,19 +14,55 @@
 		<p id="description">THIS IS THE DESCRIPTION MAYBE</p>
 
 		<form action="" id="survey-form">
-			<label id="name-label"> Name </label> <input type="text" name="whatevs" id="name" placeholder="Your name" required />
-			<label id="email-label"> Email </label> <input type="email" name="yourmail" id="email" placeholder="your Email" required />
-			<label id="number-label"> Number </label> <input type="number" name="no" id="number" placeholder="1-5" min="1" max="5" />
-      <select id="dropdown">
-        <option value="1">Coke</option>
-        <option value="2">Pepsi</option>
+			<label id="name-label"> Name </label>
+			<input
+				type="text"
+				name="whatevs"
+				id="name"
+				placeholder="Your name"
+				required
+			/>
+			<label id="email-label"> Email </label>
+			<input
+				type="email"
+				name="yourmail"
+				id="email"
+				placeholder="your Email"
+				required
+			/>
+			<label id="number-label"> Number </label>
+			<input
+				type="number"
+				name="no"
+				id="number"
+				placeholder="1-5"
+				min="1"
+				max="5"
+			/>
+			<select id="dropdown">
+				<option value="1">Coke</option>
+				<option value="2">Pepsi</option>
+			</select>
+			<br />
+			<input type="radio" name="color" value="Green" /> Green<br />
+			<input type="radio" name="color" value="Blue" /> Blue<br />
+			<input type="radio" name="color" value="Red" /> Red <br />
 
-      </select> <br>
-      <input type="radio" name="color" value="Green"> Green<br>
-      <input type="radio" name="color" value="Blue"> Blue<br>
-      <input type="radio" name="color" value="Red"> Red <br>
+			<input type="checkbox" name="fish" id="clown" value="1" />
+			<input type="checkbox" name="fish" id="angel" value="2" />
+			<input type="checkbox" name="fish" id="shark" value="3" />
 
-    </form>
+			<textarea
+				name="comments"
+				form="survey-form"
+				id="comments"
+				cols="30"
+				rows="10"
+			>
+			</textarea>
+
+			<input type="submit" value="ant" id="submit" />
+		</form>
 
 		<!--: id="name-label", id="email-label", and id="number-label".
 
